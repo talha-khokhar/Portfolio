@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Metadata for SEO and page information -->
+    <meta charset="UTF-8">
+    <meta name="Talha" content="Portfolio">
+    <meta name="language" content="English">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------------------------------------------->
+    <meta name="title" content="Talha Khokhar - Front-End Developer Portfolio">
+    <meta name="description" content="Passionate Front-End Developer with expertise in HTML, CSS, and JavaScript, dedicated to creating immersive and user-centric web experiences.">
+    <meta name="author" content="Talha Khokhar">
+    <meta name="robots" content="index, follow">
+    <meta name="google">
+    <meta name="googlebot" content="notranslate">
+    <meta name="revised" content="saturday, October 28, 2013">
+    <meta name="rating" content="general">
+    <meta name="copyright" content="copyright 2023">
+
+    <!-- Open Graph Protocol meta tags for social media sharing -->
+    <meta property="og:title" content="Talha Khokhar - Front-End Developer Portfolio">
+    <meta property="og:type" content="Portfolio website">
+    <meta property="og:img" content="logoupdate">
+    <meta property="og:url" content="file:///D:/Talha/portfolio/task-1/portfolio%20(1)/index.html">
+    <meta property="og:description" content="Passionate Front-End Developer with expertise in HTML, CSS, and JavaScript, dedicated to creating immersive and user-centric web experiences.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Portfolio Talha Khokhar">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5cf08da77f.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logoupdate.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Greeting, I'm <span> Talha Khokhar </span> <br> from Pakistan</h1>
+            </div>
+        </div>
+    </div>
+ <!-- -------------- About --------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="talha.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Passionate Front-End Developer with expertise in HTML, CSS, and JavaScript, dedicated to creating immersive and user-centric web experiences. With a keen eye for design and a strong understanding of front-end frameworks, I specialize in translating ideas into pixel-perfect websites and applications. Constantly staying updated with emerging technologies and industry trends, I am committed to continuously refining my skills and pushing the boundaries of innovation. Let's connect and discuss how we can create impactful digital experiences together.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>HTML </span> </li>
+                            <li> <span>CSS</span></li>
+                            <li> <span>JAVASCRIPT</span></li>
+                            <li> <span>BOOTSTRAP</span></li>
+                            <li> <span>MYSQL</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>2023 October - 4 Weeks - Oasis infobyte</span> <br>Web Designing & Development</li>
+                            <li> <span>2023 November - 4 Weeks - Code Case</span> <br> Web Designing & Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span>2016</span> <br> Matriculation From The Foundation Grammer School </li>
+                            <li> <span>2018</span> <br> Intermediate From Govt: SM College</li>
+                            <li> <span>2023</span> <br> Graguation From GC University Hyderabad</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li> <span>Introduction to Front-End Development</span> <br> <i> Offered By </i> Meta(coursera)</li>
+                            <li> <span>Programming with JavaScript</span> <br> <i> Offered By </i> Meta(coursera)</li>
+                            <li> <span>Version Control</span> <br> <i> Offered By </i> Meta(coursera)</li>
+                            <li> <span>Advanced HTML & CSS</span> <br> <i> Offered By </i> Meta(coursera)</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------- Contact ----------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> talhakhokhar@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i>0308-3041817</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/talhadev/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100011739885975&sk=about"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/k___talha/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/TalhaKh89190640"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="CV Talha (Web Developer).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="email" name="Email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-sharp fa-solid fa-copyright"></i> <strong> Talha Khokhar </strong></p>
+        </div>
+    </div>
+
+
+
+<!-- ------------------------ JAVASCRIPT CODE -------------- -->
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwLds778wpAJyQu8pwzTitPMdL2EYFxX_0z-kYm_NTWu6IOzBR8JDXSxufXw4DZBQIR/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg');
+  
+        form.addEventListener('submit', e => {
+             e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
